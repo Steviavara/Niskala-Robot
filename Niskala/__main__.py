@@ -78,22 +78,22 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-NISKALA_IMG = "https://telegra.ph/file/b26f8a844221353be9fb0.jpg"
+NISKALA_IMG = "https://telegra.ph/file/bd16518a5487afe6d89fe.jpg"
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ!*
-✪ `ɪ'ᴍ ᴀɴ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/b12bb872e3609f6efec90.jpg)
+*ᴀssᴀʟᴀᴍᴜ'ᴀʟᴀɪᴋᴜᴍ {}, ɪ'ᴍ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT!*
+✪ `ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [🏴‍☠️] (https://telegra.ph/file/bd16518a5487afe6d89fe.jpg)
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────
 ✪ `ʜɪᴛ` /help `ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.`
-✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @IDnyaAL
+✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @Sang_Raka
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ɴɪsᴋᴀʟᴀ", callback_data="niskala_about"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT", callback_data="niskala_about"),
     ],
     [
         InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
@@ -102,7 +102,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢", url="http://t.me/NiskalaXRobot?startgroup=true"),
+        InlineKeyboardButton(text="💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢", url="http://t.me/spectras_tapibot?startgroup=true"),
     ],
 ]
 
@@ -117,7 +117,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @IDnyaAL"""
+ @sang_raka"""
 
 IMPORTED = {}
 MIGRATEABLE = []
